@@ -10,7 +10,6 @@ app.get('/', function (req, res) {
 
 
 server.listen(8099);
-const cache_host = {};
 
 
 io.on('connection', function(socket){
