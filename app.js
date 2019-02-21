@@ -25,13 +25,9 @@ io.on('connection', function(socket){
 		console.log("disconnect socket id =="+socket.id);
 	});
 	
-	socket.on('test', function(data){
-		console.log('test function');
-		console.log('from '+data);
-	});
-	
-	socket.on('subscribe', function(){
+	socket.on('subscribe', function(data){
 		console.log('subscribe');
+		socket.emit('onSubscribe', data+", you have successfully subscribe to this NodeJS test Program.");
 	});
 
 });

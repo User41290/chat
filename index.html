@@ -1,4 +1,5 @@
 <script src="/socket.io/socket.io.js"></script>
+<h2>NodeJS Test Program</h2>
 <script>
 	var socket = io.connect('http://localhost:8099');
 	socket.on("connect", function () {
@@ -6,6 +7,11 @@
 		socket.on("message", function (m) {
 			console.log("message:", m);
 		});
+	});
+	
+	socket.on("onSubscribe", function (data) {
+		console.log("onSubscribe event");
+		console.log(data);
 	});
 
 </script>
