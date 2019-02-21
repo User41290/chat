@@ -28,6 +28,7 @@ io.on('connection', function(socket){
 	socket.on('subscribe', function(data){
 		console.log('subscribe');
 		socket.emit('onSubscribe', data+", you have successfully subscribe to this NodeJS test Program.");
+		io.emit('message', data+" have login.");
 	});
 
 });
