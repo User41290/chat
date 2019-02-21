@@ -29,5 +29,9 @@ io.on('connection', function(socket){
 		console.log('test function');
 		console.log('from '+data);
 	});
+	
+	socket.on('subscribe', function(){
+		console.log('subscribe');
+	});
 
 });
