@@ -24,5 +24,10 @@ io.on('connection', function(socket){
 		console.log('a user is disconnected!');
 		console.log("disconnect socket id =="+socket.id);
 	});
+	
+	socket.on('test', function(data){
+		console.log('test function');
+		console.log('from '+data);
+	});
 
 });
