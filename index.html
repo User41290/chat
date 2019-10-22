@@ -9,8 +9,23 @@
 		});
 	});
 	
+	socket.on("onTotalUsers", function (data) {
+		console.log("onTotalUsers event");
+		console.log(data);
+	});
+	
 	socket.on("onSubscribe", function (data) {
 		console.log("onSubscribe event");
+		console.log(data);
+	});
+	
+	socket.on("onBroadcast", function (data) {
+		console.log("onBroadcast event");
+		console.log(data);
+	});
+	
+	socket.on("onDisconnect", function (data) {
+		console.log("onDisconnect event");
 		console.log(data);
 	});
 
