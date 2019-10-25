@@ -4,9 +4,10 @@ var EventEmitter = require('events').EventEmitter;
 EventEmitter.defaultMaxListeners = 0;
 var util = require('util');
 
-function User(id, name) {
-	this.user_id = id;
+function User(id, name, conversation_id) {
+	this.id = id;
 	this.name = name;
+	this.conversation_id = conversation_id;
 }
 
 

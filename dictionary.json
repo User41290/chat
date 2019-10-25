@@ -1,0 +1,38 @@
+{
+	"common": ["is", "are", "am", "was", "were", "i", "you", "they", "them", "we"],
+	
+	"greeting": [
+		"Hi", "hello", "morning", "afternoon", "night", "nice", "meet"
+	],
+	
+	"noun": [
+	
+	],
+	
+	"verb": [
+	
+	],
+	
+	"adjective": ["fast", "slow"
+	
+	],
+	
+	"adverb": [
+	
+	],
+	
+	"pronoun": [
+	
+	],
+	
+	"preposition": [ "left", "right", "since", "at", "in", "under", "of", "to", "for", "with", "from", "behind", "infront", "on", "over", "up", "down"
+	],
+	
+	"conjunction": [ "or", "and", "both", "either", "neither", "but", "nor", "then", "therefore", "besides", "also", "furthermore", "moreover"
+	],
+	
+	"interjection": ["oh", "wow", "hooray", "oops", "ouch", "alas", "aha", "yahoo", "eww"
+	]
+
+
+}

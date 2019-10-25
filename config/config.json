@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "vela_read2",
+    "password": "HEQqtOVOWDCbHhz3",
+    "database": "fishnchip",
+    "host": "128.199.237.149",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

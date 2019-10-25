@@ -1,0 +1,31 @@
+{
+	"greeting": [
+		"yo", "hi", "hello", "morning", "afternoon", "night", "nice", "meet", "hey", "hy"
+	],
+	
+	"wallet": [
+		"wallet", "balance", "transaction", "player"
+	],
+	
+	"transaction": [
+		"deduct", "wallet", "balance", "failed", "transaction", "payout", "incorrect", "player", "place", "bet"
+	],
+	
+	"login": [
+		"login", "cannot", "failed", "fail", "no", "respond", "invalid", "password", "forgot","username", "player"
+	],
+	
+	"start-game": [
+		"start", "game", "cannot"
+	],
+	
+	"configure_return_url": [
+		"configure", "return", "url"
+	],
+	
+	"faq" : ["what", "how", "can", "need", "do", "you"],
+	
+	"account": ["account"],
+	
+	"others": ["other", "others"]
+}
